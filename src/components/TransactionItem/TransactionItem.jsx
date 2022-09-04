@@ -1,17 +1,17 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+// import s from './TransactionItem.module.css';
 
-function TransactionItem({ id, type, amount, currency }) {
+function TransactionItem({ type, amount, currency }) {
   return (
-    <tr>
+    <>
       <td>{type}</td>
       <td>{amount}</td>
       <td>{currency}</td>
-    </tr>
+    </>
   )
 }
 
 TransactionItem.propTypes = {
-  id: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,

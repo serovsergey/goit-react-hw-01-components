@@ -1,0 +1,22 @@
+.status::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.online::before {
+  background-color: green;
+}
+
+.avatar {
+  width: 64px;
+  border-radius: 4px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,42 @@
+.history {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 3;
+  text-align: center;
+  font-size: 14px;
+  /* border-right: 1px solid #dddddd; */
+  border-collapse: collapse;
+  box-shadow: 2px 2px 4px 0px #777777;
+  color: #777777;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.history td:not(:last-child),
+.history th:not(:last-child) {
+  border-right: 1px solid #dddddd;
+}
+
+.history tr:nth-child(2n) {
+  background-color: #eeeeee;
+}
+
+.history tbody tr:hover {
+  background-color: #cecece;
+}
+
+.history thead {
+  font-size: 12px;
+  background-color: #2dacb8;
+  text-transform: uppercase;
+  color: #eeeeee;
+}
+
+.history td {
+  width: calc(100% / 3);
+}
+
+.history td:first-child {
+  text-align: left;
+  padding-left: 10%;
+}
